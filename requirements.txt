@@ -1,0 +1,11 @@
+﻿duckdb
+pandas
+pyarrow
+numpy
+scikit-learn
+statsmodels
+lightgbm
+xgboost
+catboost
+nfl_data_py
+python-dotenv

@@ -1,0 +1,25 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Data & artifacts
+data/raw/
+data/interim/
+reports/picks/
+reports/bankroll/
+reports/diagnostics/
+reports/holdouts/
+reports/cv/
+reports/calibration/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets
+.env
