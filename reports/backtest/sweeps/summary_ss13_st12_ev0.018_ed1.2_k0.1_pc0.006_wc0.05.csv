@@ -1,0 +1,2 @@
+final_bankroll,roi,max_drawdown,n_weeks,n_rows_input,n_placed_bets,avg_stake,kelly_frac,per_bet_cap,weekly_risk_cap,pause_drawdown
+12417.49,0.2417,0.0874,126,9028,1070,64.69,0.1,0.006,0.05,0.3

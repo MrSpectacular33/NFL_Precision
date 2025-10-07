@@ -1,0 +1,29 @@
+{
+  "rmse_margin_error_cv": 4.712112638796602e-11,
+  "rmse_total_error_cv": 1.1959248523683055e-10,
+  "n_rows": 3166,
+  "features_margin": [
+    "points_for",
+    "points_against",
+    "is_home",
+    "is_divisional",
+    "margin",
+    "total_points",
+    "rest_days",
+    "short_week",
+    "margin_error",
+    "total_error"
+  ],
+  "features_total": [
+    "points_for",
+    "points_against",
+    "is_home",
+    "is_divisional",
+    "margin",
+    "total_points",
+    "rest_days",
+    "short_week",
+    "margin_error",
+    "total_error"
+  ]
+}

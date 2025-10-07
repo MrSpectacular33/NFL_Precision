@@ -1,0 +1,20 @@
+{
+  "features": [
+    "rest_days_diff",
+    "wind_mph",
+    "is_dome",
+    "is_home",
+    "home_bias",
+    "qb_downgrade",
+    "ol_continuity",
+    "rest_home_inter",
+    "wind_outdoor",
+    "home_score",
+    "away_score",
+    "margin_error",
+    "total_error"
+  ],
+  "rmse_margin_cv": 0.0010560856776658549,
+  "rmse_total_cv": 0.04565758159624667,
+  "n_rows": 3166
+}

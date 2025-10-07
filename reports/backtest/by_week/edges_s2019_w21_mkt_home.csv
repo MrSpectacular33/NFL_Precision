@@ -1,0 +1,2 @@
+game_id,team,opponent,season,week,market_spread,pred_margin_ols,edge_margin_pts,p_cover,kelly_spread,edge_spread_ev,market_total,pred_total_ols_home,edge_total_pts,p_over,kelly_total,edge_total_ev
+2019_21_SF_KC,KC,SF,2019,21,1.5,1.389648362272269,-0.11035163772773093,0.49661358420708585,0.0,-0.051919521059199836,52.5,53.76256984449017,1.262569844490173,0.5386847515660383,0.031237978288680492,0.028398162080618627

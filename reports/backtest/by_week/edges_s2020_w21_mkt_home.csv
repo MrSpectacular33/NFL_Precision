@@ -1,0 +1,2 @@
+game_id,team,opponent,season,week,market_spread,pred_margin_ols,edge_margin_pts,p_cover,kelly_spread,edge_spread_ev,market_total,pred_total_ols_home,edge_total_pts,p_over,kelly_total,edge_total_ev
+2020_21_KC_TB,TB,KC,2020,21,-3.0,-2.148473823964076,0.8515261760359238,0.5261128483966103,0.004836981632881682,0.004397256029892438,55.0,55.02027366864565,0.02027366864565039,0.5006221554094727,0.0,-0.04426679421827934
