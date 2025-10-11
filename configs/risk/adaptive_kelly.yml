@@ -1,0 +1,25 @@
+kelly_input: p_blend
+kelly:
+  base_fraction: 0.5
+  min_fraction: 0.0
+  max_fraction: 0.3
+regimes:
+  vol_high_sigma: 1.5
+  vol_low_sigma: 0.7
+  dd_soft: 0.05
+  dd_hard: 0.1
+  ema_alpha: 0.15
+  dd_alpha: 0.1
+bankroll_target: 10000
+smoothing:
+  ema_alpha: 0.2
+  dd_alpha: 0.2
+constraints:
+  per_bet_cap: 125
+  min_edge: 0.01
+  max_bets_per_game: 1
+  max_weekly_risk: 0.2
+correlation:
+  same_game_penalty: 0.35
+  penalize_positive_rho: true
+  rho_same_game: 0.25
