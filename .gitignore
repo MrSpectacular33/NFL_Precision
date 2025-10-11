@@ -1,27 +1,61 @@
-﻿# Python
-.venv/
+﻿# -------------------------
+# Python / build artifacts
+# -------------------------
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.ipynb_checkpoints/
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.cache/
+*.log
 
-# Data & artifacts
-data/raw/
-data/interim/
-reports/picks/
-reports/bankroll/
-reports/diagnostics/
-reports/holdouts/
-reports/cv/
-reports/calibration/
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+ENV/
 
-# OS/IDE
+# -------------------------
+# OS / editor cruft
+# -------------------------
 .DS_Store
 Thumbs.db
+.idea/
 .vscode/
+.ipynb_checkpoints/
 
-# Secrets
-.env
+# -------------------------
+# Data & model artifacts
+# (reproducible via scripts)
+# -------------------------
+data/raw/
+data/external/
+data/tmp/
+data/cache/
+data/processed/
+snapshots/
 
-snapshots/*.zip
+# -------------------------
+# Reports & outputs
+# (all reproducible)
+# -------------------------
+reports/backtest/
+reports/metrics/
+reports/policy/
+
+# -------------------------
+# Trained models
+# (keep code, ignore weights)
+# -------------------------
+models/
+!models/README.md
+
+# -------------------------
+# PowerShell history dumps
+# -------------------------
+*.pshistory

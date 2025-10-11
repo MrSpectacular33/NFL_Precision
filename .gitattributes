@@ -1,5 +1,9 @@
-﻿* text=auto eol=lf
-*.ps1 text eol=crlf
-*.py  text eol=lf
-*.csv text eol=lf
-*.parquet -text
+﻿# Scripts
+*.ps1   text eol=crlf
+
+# Code & configs (LF)
+*.py    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf

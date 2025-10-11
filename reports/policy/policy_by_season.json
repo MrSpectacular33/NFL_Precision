@@ -1,37 +1,38 @@
 {
-    "2019":  {
-                 "min_ev_spread":  0.01,
-                 "min_edge_spread":  0.8,
-                 "note":  "bootstrap"
-             },
-    "2020":  {
-                 "min_ev_spread":  0.02,
-                 "min_edge_spread":  1.4,
-                 "train_picks":  476
-             },
-    "2021":  {
-                 "min_ev_spread":  0.02,
-                 "min_edge_spread":  1.4,
-                 "train_picks":  856
-             },
-    "2022":  {
-                 "min_ev_spread":  0.02,
-                 "min_edge_spread":  1.4,
-                 "train_picks":  1276
-             },
-    "2023":  {
-                 "min_ev_spread":  0.02,
-                 "min_edge_spread":  1.4,
-                 "train_picks":  1763
-             },
-    "2024":  {
-                 "min_ev_spread":  0.02,
-                 "min_edge_spread":  1.4,
-                 "train_picks":  2317
-             },
-    "2025":  {
-                 "min_ev_spread":  0.02,
-                 "min_edge_spread":  1.4,
-                 "train_picks":  2317
-             }
+  "2019": {
+    "min_ev_spread": 0.012,
+    "min_edge_spread": 1.6,
+    "train_picks": 474,
+    "prob_col": "p_blend"
+  },
+  "2020": {
+    "min_ev_spread": 0.022,
+    "min_edge_spread": 1.6,
+    "train_picks": 378,
+    "prob_col": "p_blend"
+  },
+  "2021": {
+    "min_ev_spread": 0.012,
+    "min_edge_spread": 1.2,
+    "train_picks": 421,
+    "prob_col": "p_blend"
+  },
+  "2022": {
+    "min_ev_spread": 0.012,
+    "min_edge_spread": 1.2,
+    "train_picks": 487,
+    "prob_col": "p_blend"
+  },
+  "2023": {
+    "min_ev_spread": 0.012,
+    "min_edge_spread": 1.6,
+    "train_picks": 552,
+    "prob_col": "p_blend"
+  },
+  "2024": {
+    "min_ev_spread": 0.012,
+    "min_edge_spread": 1.6,
+    "train_picks": 514,
+    "prob_col": "p_blend"
+  }
 }
