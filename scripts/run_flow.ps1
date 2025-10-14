@@ -184,3 +184,28 @@ Import-Csv $stakesOpt | Group-Object game_id | ForEach-Object {
 }
 if($viol.Count){ Write-Warning ("Per-game cap violations:`n" + ($viol -join "`n")) }
 
+# ===== Settlement & Warehouse =====
+$execCsv = ".\reports\exec\execution_sheet_latest.csv"
+$outcomesCsv = ".\data\bets\outcomes_week_input.csv"
+$outCsv = ".\data\bets\bet_outcomes.csv"
+
+if (Test-Path $execCsv) {
+  if (Test-Path $outcomesCsv) {
+    Write-Host "`n[Settlement] Joining outcomes -> warehouse..."
+    .\.venv\Scripts\python.exe .\scripts\warehouse\warehouse_append_and_metrics.py `
+      --exec $execCsv `
+      --outcomes $outcomesCsv `
+      --out $outCsv
+    # Snapshot
+    $stamp = Get-Date -Format "yyyyMMdd_HHmmss"
+    New-Item -ItemType Directory -Force "reports\runs\$stamp" | Out-Null
+    Copy-Item $execCsv "reports\runs\$stamp\"
+    Copy-Item $outCsv  "reports\runs\$stamp\"
+    Copy-Item ".\reports\qa\live_metrics.json" "reports\runs\$stamp\"
+  } else {
+    Write-Warning "[Settlement] Skipped: outcomes file not found at $outcomesCsv"
+  }
+} else {
+  Write-Warning "[Settlement] Skipped: exec sheet not found at $execCsv"
+}
+# ===== /Settlement & Warehouse =====
