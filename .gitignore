@@ -59,3 +59,14 @@ models/
 # PowerShell history dumps
 # -------------------------
 *.pshistory
+# === AUTO-GENERATED OUTPUTS ===
+dist/
+reports/**/*
+!reports/configs/
+data/warehouse/*.csv
+data/bets/*.csv
+*.parquet
+*.log
+*.zip
+*.json
+*.png
