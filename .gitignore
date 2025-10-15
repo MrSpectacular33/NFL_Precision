@@ -70,3 +70,5 @@ data/bets/*.csv
 *.zip
 *.json
 *.png
+!configs/calibration/calibration_map.json
+!reports/portfolio/shadow_summary.json
